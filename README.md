@@ -3,7 +3,7 @@
 GloVe wrapper for Torch7.
 
 ### Installation
-git clone https://github.com/rotmanmi/GloVe.torch
+git clone https://github.com/rotmanmi/glove.torch
 
 get the pre-trained GloVe word files from:
 http://nlp.stanford.edu/projects/glove/
