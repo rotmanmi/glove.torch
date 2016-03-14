@@ -23,7 +23,7 @@ GloVe.distance = function (self,vec,k)
 	local returnwords = {}
 	local returndistances = {}
 	for i = 1,k do
-		table.insert(returnwords, w2vutils.v2wvocab[oldindex[i]])
+		table.insert(returnwords, self.v2wvocab[oldindex[i]])
 		table.insert(returndistances, distances[i])
 	end
 	return {returndistances, returnwords}
